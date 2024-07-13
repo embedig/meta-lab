@@ -1,0 +1,21 @@
+&axi_quad_spi_0 {
+	status = "okay";
+	spidev@0x00 {
+            compatible = "lwn,bk4";
+            spi-max-frequency = <25000000>;
+            reg = <0>;
+       };
+};
+
+&axi_iic_0 {
+	status = "okay";
+	clock-frequency = <400000>;
+};
+
+&axi_uartlite_0 {
+	status = "okay";
+};
+
+&axi_uartlite_1 {
+	status = "okay";
+};

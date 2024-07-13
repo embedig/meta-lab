@@ -1,0 +1,13 @@
+diff --git a/hello-git.c b/hello-git.c
+index 7c35544..9ea17a6 100644
+--- a/hello-git.c
++++ b/hello-git.c
+@@ -2,7 +2,7 @@
+ 
+ int main(int argc, char **argv)
+ {
+-    printf("Hello Github!\n");
++    printf("[V1.0] Hello Github!\n");
+ 
+     return 0;
+ }
